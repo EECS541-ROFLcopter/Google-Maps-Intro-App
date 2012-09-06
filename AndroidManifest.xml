@@ -13,7 +13,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <uses-library android:name="com.google.android.maps" />
+        
         <activity
             android:name=".Main"
             android:label="@string/title_activity_main" >
@@ -24,10 +24,12 @@
             </intent-filter>
         </activity>
         <activity 
-	        android:name=".HelloGoogleMaps" 
+	        android:name=".GoogleMapsIntro" 
 	        android:label="@string/app_name"
 	     	android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
+        
+        <uses-library android:name="com.google.android.maps" />
     </application>
 
 </manifest>
